@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif,"poppins";
+    text-transform: capitalize;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.footer{
+    background: #24262b;
+    padding: 70px 0;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap ;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background: #ffc500;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #bbbbbb;
+    display: block;
+  
+    transition: all .3s ease;
+}
+.footer-col ul li a:hover{
+    color: #fff;
+    padding-left: 6px;
+}
+.footer-col .social-link a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background:rgba(255, 255, 255,.2);
+    margin: 0 10px 10 0px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+
+
+}
+.footer-col .social-link a:hover{
+    color: #24262b;
+    background: #fff;
+}
+
+/* responsive*/
+
+@media(max-width:767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom:30px ;
+    }
+ }
+
+ @media(max-width:567px){
+    .footer-col{
+               width: 100%;
+        
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
